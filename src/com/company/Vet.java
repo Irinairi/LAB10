@@ -1,18 +1,64 @@
 package com.company;
 
-public class Vet {
-    public String namevet ="Man Sorin";
-    public String profession ="veneterian";
-    public String programwork ="afternoon";
-    public String treatment ="prescribe the treatment";
+import jdk.dynalink.beans.StaticClass;
 
-    public void namevetvet(){
-        System.out.println("namevet");
+public class Vet {
+
+    private String Namevet ;
+    private String profession ;
+    private String programwork;
+    private String treatment;
+    private int price;
+    private int age;
+
+    public String getNamevet(){
+
+        return Namevet;
     }
-    public void professionvet(){
-        System.out.println("doc");
+    public void setNamevet(String Namevet)
+    {
+        this.Namevet=Namevet;
     }
-    public void treatment(){
-        System.out.println("brrbrbr.." );
+    public String getProfession(){
+
+       return  profession;
+    }
+    public void setProfession(String vete){
+        this.profession=profession;
+    }
+
+    public String getTreatment(){
+
+        return treatment;
+    }
+    public void setTreatment(String treatment){
+
+        this.treatment=treatment;
+    }
+   public String getProgramwork(){
+
+        return programwork;
+   }
+
+    public int getPrice() {
+
+        return price;
+    }
+
+    public void setPrice(int price)
+    {
+        this.price = price;
+    }
+
+
+    public int getAge() {
+
+        return age;
+    }
+
+    public void setAge(int age) {
+
+        this.age = age;
     }
 }
+

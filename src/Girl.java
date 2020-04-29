@@ -1,33 +1,86 @@
 
 public class Girl {
 
-    public String nameGirl ="Sofia";
-    public String adopt = "parent";
-    public String go = "walk";
-    public String  wash = "washher";
-    public String tretment ="administrer and treatment";
-    public String plays= "playtogether";
+    private String NameGirl ;
+    private String adopt ;
+    private String walkTheDog;
+    private String wash;
+    private int age;
+    private String eyes;
+    private String colorgirl;
+    private String hair;
+    private String tretment;
+    private String plays ;
 
 
-    public void nameGirl (){
-        System.out.println("herrrr."); }
+    public String getnameGirl() {
 
-        public void go(){
-        System.out.println("gogog"); }
+        return NameGirl;
+    }
+    public void setNameGirl(String nameGirl){
+
+        this.NameGirl=NameGirl;
+    }
+
+     public String getwalkTheDog()
+     {
+        return walkTheDog;
+    }
 
 
-              public void  wash(){
-        System.out.println("wash"); }
+    public void setWalkTheDog(String WalkTheDod){
 
+        this.walkTheDog=walkTheDog;
+    }
 
-             public void tretment(){
-        System.out.println("tretment");
-      }
+    public String wash() {
 
-             public void plays (){
-    System.out.println("plays");
-     }
+        return wash;
+    }
+    public void setWash(String wash){
+        this.wash=wash;
+    }
+
+    public String getTretment() {
+
+        return tretment;
+    }
+    public void setTretment(String tratment) {
+        this.tretment=tretment;
+    }
+
+    public String getPlays()
     {
+        return plays;
+    }
+    public void setPlays(String plays) {
+
+        this.plays=plays;
+    }
+ public String getEyes(){
+
+        return eyes;
+ }
+ public void setEyes(String eyes){
+
+        this.eyes=eyes;
+ }
+    public String getHair(){
+
+        return hair;
+  }
+      public void setHair(String hair){
+
+        this.hair=hair;
+      }
+    public int  getage(){
+
+        return age;
+    }
+
+      public void setAge(int age){
+
+        this.age=age;
     }
 }
 
