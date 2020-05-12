@@ -1,24 +1,18 @@
 package com.company;
 
+import com.ANIMAL;
 import jdk.dynalink.beans.StaticClass;
 
-public class Vet {
+public class Vet extends ANIMAL {
 
-    private String Namevet ;
+
     private String profession ;
     private String programwork;
     private String treatment;
     private int price;
-    private int age;
 
-    public String getNamevet(){
 
-        return Namevet;
-    }
-    public void setNamevet(String Namevet)
-    {
-        this.Namevet=Namevet;
-    }
+
     public String getProfession(){
 
        return  profession;
@@ -51,14 +45,6 @@ public class Vet {
     }
 
 
-    public int getAge() {
 
-        return age;
-    }
-
-    public void setAge(int age) {
-
-        this.age = age;
-    }
 }
 

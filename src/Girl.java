@@ -1,26 +1,19 @@
+import com.ANIMAL;
 
-public class Girl {
+public class Girl extends ANIMAL {
 
-    private String NameGirl ;
+
     private String adopt ;
     private String walkTheDog;
     private String wash;
-    private int age;
     private String eyes;
-    private String colorgirl;
+    private String color;
     private String hair;
     private String tretment;
     private String plays ;
 
 
-    public String getnameGirl() {
 
-        return NameGirl;
-    }
-    public void setNameGirl(String nameGirl){
-
-        this.NameGirl=NameGirl;
-    }
 
      public String getwalkTheDog()
      {
@@ -33,7 +26,7 @@ public class Girl {
         this.walkTheDog=walkTheDog;
     }
 
-    public String wash() {
+    public String getWash() {
 
         return wash;
     }
@@ -73,14 +66,6 @@ public class Girl {
 
         this.hair=hair;
       }
-    public int  getage(){
 
-        return age;
-    }
-
-      public void setAge(int age){
-
-        this.age=age;
-    }
 }
 

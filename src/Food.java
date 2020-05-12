@@ -1,21 +1,15 @@
-public class Food {
+import com.ANIMAL;
+
+public class Food extends ANIMAL {
 
 
-    private String Name;
+
     private String FavoriteFood;
     private int Price;
     private int quantity;
     private int Availabilitystok;
 
 
-    public String getName() {
-        return Name;
-    }
-
-    public void SetName(String name) {
-
-        this.Name = Name;
-    }
 
 
     public int getPrice() {
