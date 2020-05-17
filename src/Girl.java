@@ -1,71 +1,33 @@
-import com.ANIMAL;
+import com.company.Human;
 
-public class Girl extends ANIMAL {
-
-
-    private String adopt ;
-    private String walkTheDog;
-    private String wash;
-    private String eyes;
-    private String color;
-    private String hair;
-    private String tretment;
-    private String plays ;
+public class Girl extends Human {
 
 
 
 
-     public String getwalkTheDog()
-     {
-        return walkTheDog;
+        public void eat(){
+            System.out.println(" Chocolate");
+        }
+
+        public  void run (){ System.out.println("every day"); }
+
+        public void sleep(){
+            System.out.println(" more ");
+        }
+
+        public void hobby(){ System.out.println("dance bachata");}
+
+        public void genremuzic(){System.out.println(" rap");}
+
+        public void Sport(){System.out.println("volley-ball");}
+
+        public void book(){System.out.println(" Flutturii");}
+
+        public void studies(){System.out.println(" finance");}
     }
 
 
-    public void setWalkTheDog(String WalkTheDod){
 
-        this.walkTheDog=walkTheDog;
-    }
 
-    public String getWash() {
 
-        return wash;
-    }
-    public void setWash(String wash){
-        this.wash=wash;
-    }
-
-    public String getTretment() {
-
-        return tretment;
-    }
-    public void setTretment(String tratment) {
-        this.tretment=tretment;
-    }
-
-    public String getPlays()
-    {
-        return plays;
-    }
-    public void setPlays(String plays) {
-
-        this.plays=plays;
-    }
- public String getEyes(){
-
-        return eyes;
- }
- public void setEyes(String eyes){
-
-        this.eyes=eyes;
- }
-    public String getHair(){
-
-        return hair;
-  }
-      public void setHair(String hair){
-
-        this.hair=hair;
-      }
-
-}
 

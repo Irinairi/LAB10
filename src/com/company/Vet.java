@@ -3,48 +3,29 @@ package com.company;
 import com.ANIMAL;
 import jdk.dynalink.beans.StaticClass;
 
-public class Vet extends ANIMAL {
-
-
-    private String profession ;
-    private String programwork;
-    private String treatment;
-    private int price;
+public class Vet  extends MediStaff {
 
 
 
-    public String getProfession(){
-
-       return  profession;
-    }
-    public void setProfession(String vete){
-        this.profession=profession;
+    public void eat(){
+        System.out.println("eating vegeterian food");
     }
 
-    public String getTreatment(){
-
-        return treatment;
-    }
-    public void setTreatment(String treatment){
-
-        this.treatment=treatment;
-    }
-   public String getProgramwork(){
-
-        return programwork;
-   }
-
-    public int getPrice() {
-
-        return price;
+    public  void run (){
+        System.out.println("daily..");
     }
 
-    public void setPrice(int price)
-    {
-        this.price = price;
+    public void sleep(){
+        System.out.println("snores when he sleeps..");
     }
 
+    public void hobby(){ System.out.println(" picture.");}
 
+    public void genremuzic(){System.out.println("rok ");}
+
+    public void Sport(){System.out.println("fodbal");}
+
+    public void drink (){System.out.println("wine");}
 
 }
 
