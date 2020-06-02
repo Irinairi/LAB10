@@ -2,58 +2,62 @@ package com.company;
 
 public class MediStaff extends Human {
 
-    private String Name;
-    private int Age;
-    private String profession ;
-    private String programwork;
-    private String treatment;
-    private int price;
-    public int getAge() {
-        return Age;
+   // private String Name;
+    //private int Age;
+   // private String Profession ;
+   // private String programwork;
+  //  private String treatment;
+   // private int price;
+
+
+    @Override
+    public void eat() {
+        System.out.println("vegan");
     }
 
-    public void setAge(int age) {
-        Age = age;
-    }
-    public String getName() {
-        return Name;
+    @Override
+    public void run() {
+        System.out.println("15kmp ");
+
     }
 
-    public void setName(String name) {
-        Name = name;
+    @Override
+    public void sleep() {
+        System.out.println("5 hour");
+
     }
 
-    public String getProfession() {
-        return profession;
+    @Override
+    public void hobby() {
+        System.out.println("documentarie movies");
+
     }
 
-    public void setProfession(String profession) {
-        this.profession = profession;
+    @Override
+    public void genremuzic() {
+        System.out.println("instrumental muzic");
+
     }
 
-    public String getProgramwork() {
-        return programwork;
+    @Override
+    public void Sport() {
+        System.out.println("skiing");
+
     }
 
-    public void setProgramwork(String programwork) {
-        this.programwork = programwork;
+    @Override
+    public void book() {
+        System.out.println("All");
+
     }
 
-    public String getTreatment() {
-        return treatment;
+    @Override
+    public void studies() {
+        System.out.println("teacher");
+
     }
 
-    public void setTreatment(String treatment) {
-        this.treatment = treatment;
-    }
 
-    public int getPrice() {
-        return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
 
 
 

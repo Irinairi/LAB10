@@ -25,5 +25,10 @@ public class cat extends ANIMAL {
 
     public void speak (){System.out.println("Miow");}
 
+    @Override
+    public void life() {
+        System.out.println("on the couch");
+    }
+
 
 }

@@ -1,11 +1,49 @@
 package com.company;
 
-public class Human {
+public abstract class Human {
     private String Name;
     private int Age;
     private String eyes;
     private String Walk;
     private String cares;
+
+    private String Profession ;
+    private String programwork;
+    private String treatment;
+
+    public String getProfession() {
+        return Profession;
+    }
+
+    public void setProfession(String profession) {
+        Profession = profession;
+    }
+
+    public String getProgramwork() {
+        return programwork;
+    }
+
+    public void setProgramwork(String programwork) {
+        this.programwork = programwork;
+    }
+
+    public String getTreatment() {
+        return treatment;
+    }
+
+    public void setTreatment(String treatment) {
+        this.treatment = treatment;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    private int price;
 
 
 
@@ -75,25 +113,20 @@ public class Human {
         this.eyes = eyes;
     }
 
-    public void eat(){
-        System.out.println(" food");
-    }
+    public abstract void eat();
 
-    public  void run (){ System.out.println(" "); }
+    public abstract void run ();
 
-    public void sleep(){
-        System.out.println(" sleep");
-    }
+    public abstract void sleep();
 
-    public void hobby(){ System.out.println(" I like..");}
+    public abstract void hobby();
 
-    public void genremuzic(){System.out.println("all ");}
+    public abstract  void genremuzic();
+    public abstract void Sport();
 
-    public void Sport(){System.out.println("fodbal");}
+    public abstract void book();
 
-    public void book(){System.out.println(" the book");}
-
-    public void studies(){System.out.println(" studies");}
+    public abstract void studies();
 
 
 

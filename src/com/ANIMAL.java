@@ -1,6 +1,6 @@
 package com;
 
-public class ANIMAL {
+public abstract class  ANIMAL {
 
     private String Name ;
     private int age ;
@@ -12,18 +12,6 @@ public class ANIMAL {
     private String Sleep ;
     private int healthlevel ;
     private int Hungerlevel;
-    //private String Speak;
-
-
-
-   // public String getSpeak() {
-      //  return Speak;
-  //  }
-
-    //public void setSpeak(String speak) {
-       // Speak = speak;
-   // }
-
 
 
     public String getRace() {
@@ -130,21 +118,15 @@ public class ANIMAL {
 
 
 
-    public void eat(){
-        System.out.println("eating ");
-    }
+    public abstract void eat();
 
-    public  void run (){
-        System.out.println("running.");
-    }
+    public abstract void run ();
 
-    public void sleep(){
-        System.out.println("sleaping..");
-    }
+    public abstract void sleep();
 
-    public void speak (){System.out.println("sunete");}
+    public abstract void speak ();
 
-    public  void life (){System.out.println("earth");}
+    public  abstract void life() ;
 
 
 

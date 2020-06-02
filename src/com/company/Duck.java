@@ -7,11 +7,11 @@ public class Duck extends ANIMAL {
 
 
     public void eat() {
-        System.out.println("fish..");
+        System.out.println("planet and seeds..");
     }
 
     public void run() {
-        System.out.println("silent..");
+        System.out.println("slow..");
     }
 
     public void sleep() {

@@ -1,8 +1,5 @@
 import com.company.*;
 
-import javax.sql.rowset.spi.SyncProvider;
-import java.util.concurrent.SubmissionPublisher;
-
 
 public class AppMain {
 
@@ -36,9 +33,9 @@ public class AppMain {
         System.out.println(myPet.getSleep());
 
 
-        System.out.println("");
 
-        Duck myanim =new Duck();
+
+        Duck myanim = new Duck();
         myanim.setName("Ratusca urata");
         myanim.setRace("rata salbatica");
         myanim.setAge(3);
@@ -69,7 +66,7 @@ public class AppMain {
         System.out.println(myfood.getPrice());
         System.out.println();
 
-        FoodDog objectdog =new FoodDog();
+        FoodDog objectdog = new FoodDog();
         objectdog.setName(" Bones");
         objectdog.setQuantity(1);
         objectdog.setPrice(70);
@@ -78,7 +75,7 @@ public class AppMain {
         System.out.println(objectdog.getQuantity());
         System.out.println(objectdog.getPrice());
 
-        FoodCat objectcat=new FoodCat();
+        FoodCat objectcat = new FoodCat();
         objectcat.setName("fish ");
         objectcat.setPrice(20);
         objectcat.setQuantity(1);
@@ -96,7 +93,7 @@ public class AppMain {
         myObject1.setCares(" love animal");
         myObject1.setHair("black");
         myObject1.setEyes("green");
-        myObject1.setAge( 14);
+        myObject1.setAge(14);
         myObject1.setSpeak("English and French");
         myObject1.genremuzic();
         myObject1.hobby();
@@ -111,7 +108,7 @@ public class AppMain {
         System.out.println(myObject1.getSpeak());
 
 
-        Boy myObject= new Boy();
+        Boy myObject = new Boy();
         myObject.setName("Alex");
         myObject.setAge(17);
         myObject.setEyes("black");
@@ -131,7 +128,6 @@ public class AppMain {
         System.out.println(myObject.getWalk());
 
 
-
         Vet medi = new Vet();
 
         medi.setName("Bud Marius");
@@ -142,7 +138,7 @@ public class AppMain {
         medi.genremuzic();
         medi.hobby();
         medi.Sport();
-        medi.drink ();
+        medi.drink();
 
         System.out.println(medi.getName());
         System.out.println(medi.getTreatment());
@@ -163,13 +159,52 @@ public class AppMain {
         myobject.life();
 
 
-       System.out.println(myobject.getName());
-       System.out.println(myobject.getAge());
-       System.out.println(myobject.getColor());
-       System.out.println(myobject.getHeight());
-       System.out.println(myobject.getMoodLevel());
+        System.out.println(myobject.getName());
+        System.out.println(myobject.getAge());
+        System.out.println(myobject.getColor());
+        System.out.println(myobject.getHeight());
+        System.out.println(myobject.getMoodLevel());
+
+
+        Pug riki = new Pug() ;
+        riki.setAge(4);
+        riki.setChipNr(5577);
+        riki.setColor("white");
+        riki.setHeight(10);
+        riki.setMoodLevel(10);
+        riki.sleep();
+        riki.eat();
+
+        System.out.println(riki.getAge());
+        System.out.println(riki.getChipNr());
+        System.out.println(riki.getColor());
+        System.out.println(riki.getHeight());
+        System.out.println(riki.getMoodLevel());
+
+
+        Chiuaua chiuaua =new Chiuaua() ;
+        chiuaua.setAge(5);
+        chiuaua.setChipNr(88888);
+        chiuaua.setColor("brown");
+        chiuaua.setHeight(10);
+        chiuaua.setWeighr(12);
+        chiuaua.setRace("buldog fracez");
+        chiuaua.eat();
+        chiuaua.run();
+
+        System.out.println(chiuaua.getAge());
+        System.out.println(chiuaua.getChipNr());
+        System.out.println(chiuaua.getColor());
+
+
+        }
+
 
 
     }
 
-}
+
+
+
+
+

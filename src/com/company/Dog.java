@@ -1,6 +1,8 @@
+package com.company;
+
 import com.ANIMAL;
 
-public class Dog extends ANIMAL {
+public  class Dog extends ANIMAL {
 
 
     public int getChipNr() {
@@ -17,22 +19,18 @@ public class Dog extends ANIMAL {
         System.out.println("hamham");
     }
 
+    public void eat() { System.out.println("eat pedigree"); }
+
+    @Override
     public void run() {
-        System.out.println("fast..");
+        System.out.println("run fast ");
     }
+
 
     public void sleep() {
-        System.out.println("szzz..");
+        System.out.println("szzz.snores.");
     }
 
-    public  void life (){System.out.println("in the house");}
-
-
+    public  void life (){System.out.println("in the your  house");}
 
 }
-
-
-
-
-
-
